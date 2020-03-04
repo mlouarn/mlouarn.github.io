@@ -13,11 +13,8 @@ nav ul li, footer ul li {
     margin-right: 20px;
 }
 
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
+p { margin: 0 0 16px 0; }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
