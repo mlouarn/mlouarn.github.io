@@ -12,17 +12,9 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
-    text-decoration: none;
-    color: #999;
+  text-decoration: underline;
 }
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
@@ -62,3 +54,13 @@ ul.posts li {
      margin: 0;
      height: 15px;
 }
+
+.clear { clear: both; }
+#page-wrap { width: 800px; margin: 40px auto 60px; }
+#pic { float: right; margin: -30px 0 0 0; }
+h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
+h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
+a { color: #999; text-decoration: none; border-bottom: 1px dotted #999; }
+a:hover { border-bottom-style: solid; color: black; }
+#objective { width: 500px; float: left; }
+#objective p { font-family: Georgia, Serif; font-style: italic; color: #666; }
